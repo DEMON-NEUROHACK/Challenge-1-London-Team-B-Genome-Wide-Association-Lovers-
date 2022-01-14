@@ -1,0 +1,11 @@
+regenie \
+    --step 2 \
+    --bed all_chromosomes \
+    --covarFile covariates_fid0.tsv \
+    --phenoFile binary_phenotypes_regenie.tsv \
+    --bsize 200 \
+    --minINFO 0.4 \
+    --minMAC 5 \
+    --bt \
+    --pred fit_out_cont.list \
+    --out regenie_continuous_out
