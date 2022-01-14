@@ -12,7 +12,7 @@ All team members helped to shape our overall aims and plan.
 
 ### Project Summary
 
-For a summary of our completed code and pipeline please refer to the [Summary.Rmd](https://github.com/DEMON-NEUROHACK/Challenge-1-London-Team-B-Genome-Wide-Association-Lovers-/blob/main/Summary.Rmd) file. 
+For a summary of our completed code and pipeline please refer to our [Github Page](https://demon-neurohack.github.io/Challenge-1-London-Team-B-Genome-Wide-Association-Lovers-/Summary.html). For a regular R Markdown version of our pipeline for users to run please refer to the [Summary.Rmd](https://github.com/DEMON-NEUROHACK/Challenge-1-London-Team-B-Genome-Wide-Association-Lovers-/blob/main/Summary.Rmd) file. 
 
 ### Formal Pipeline in Progress
 
