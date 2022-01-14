@@ -1,15 +1,5 @@
 # Challenge-1-London-Team-B aka "Genome-Wide Association Lovers"
 
-### Team Members & Contributions
-
-* Anna Elisabeth Fürtjes (London) - Genetic Quality Control, Formatting genetic files for analysis, Creation & testing of Regenie scripts (Stages 1 & 2); advising team members on GWAS methods
-* Mateus Harrington (Cardiff) - Becoming our go-to man on how to use the DNA Nexus platform; creation of covariate file; creating snplist files; setting up Regenie to work via DNA Nexus
-* Isy Foote (London) - Advising team members on how to integrate our work into the dementia field meaningfully; creation of phenotype file; troubleshooting errors & queries to support teammates; creation of presentation  
-* David Enoma (Nigeria) - Technical and Scientific support, brainstorming & Creating presentation; 
-* Gabriela Paulus (NYC) - Setting up our GitHub page; worked on integrating our workflow as a NextFlow pipeline
-
-All team members helped to shape our overall aims and plan.
-
 ### Project Summary
 
 For a summary of our completed code and pipeline please refer to our [Github Page](https://demon-neurohack.github.io/Challenge-1-London-Team-B-Genome-Wide-Association-Lovers-/Summary.html). For a regular R Markdown version of our pipeline for users to run please refer to the [Summary.Rmd](https://github.com/DEMON-NEUROHACK/Challenge-1-London-Team-B-Genome-Wide-Association-Lovers-/blob/main/Summary.Rmd) file. 
@@ -44,3 +34,13 @@ In order to use NextFlow from the DNA nexus Cloud Station, the following steps w
 
 
 <br>
+
+### Team Members & Contributions
+
+* Anna Elisabeth Fürtjes (London) - Genetic Quality Control, Formatting genetic files for analysis, Creation & testing of Regenie scripts (Stages 1 & 2); advising team members on GWAS methods
+* Mateus Harrington (Cardiff) - Becoming our go-to man on how to use the DNA Nexus platform; creation of covariate file; creating snplist files; setting up Regenie to work via DNA Nexus
+* Isy Foote (London) - Advising team members on how to integrate our work into the dementia field meaningfully; creation of phenotype file; troubleshooting errors & queries to support teammates; creation of presentation  
+* David Enoma (Nigeria) - Technical and Scientific support, brainstorming & Creating presentation; 
+* Gabriela Paulus (NYC) - Setting up our GitHub page; worked on integrating our workflow as a NextFlow pipeline
+
+All team members helped to shape our overall aims and plan.
