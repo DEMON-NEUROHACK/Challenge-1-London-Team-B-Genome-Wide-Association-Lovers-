@@ -20,5 +20,11 @@ Benefits of using NextFlow are:<br>
 <br>
 
 ### NextFlow Environment Setup<br>
-In order to use NextFlow from the DNA nexus Cloud Station, the following steps were taken:
- * 
+In order to use NextFlow from the DNA nexus Cloud Station, the following steps were taken (_see history.txt for detailed commands_):
+ * NextFlow Installation
+      * requires Java installation
+ * Docker Installation
+ * Data Download
+
+
+<br>
