@@ -41,6 +41,6 @@ In order to use NextFlow from the DNA nexus Cloud Station, the following steps w
 * Mateus Harrington (Cardiff) - Becoming our go-to man on how to use the DNA Nexus platform; creation of covariate file; creating snplist files; setting up Regenie to work via DNA Nexus
 * Isy Foote (London) - Advising team members on how to integrate our work into the dementia field meaningfully; creation of phenotype file; troubleshooting errors & queries to support teammates; creation of presentation  
 * David Enoma (Nigeria) - Technical and Scientific support, brainstorming & Creating presentation; 
-* Gabriela Paulus (NYC) - Setting up our GitHub page; worked on integrating our workflow as a NextFlow pipeline
+* Gabriela Karina Paulus (NYC) - Setting up our GitHub page; worked on integrating our workflow as a NextFlow pipeline
 
 All team members helped to shape our overall aims and plan.
