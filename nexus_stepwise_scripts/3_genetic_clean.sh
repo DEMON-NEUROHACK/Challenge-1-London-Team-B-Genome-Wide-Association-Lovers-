@@ -2,12 +2,8 @@
 ## 12/01/2021
 ## Anna Furtjes
 
-
+# install plink2
 conda install -c bioconda plink2
-
-# download vcf files
-dx cd
-dx download "Genotype data/Test data/*dose.vcf.gz" -r
 
 # download script to fix vcf formatting
 dx download file-G7Q5K1808Y84P92v82b5k231
@@ -26,4 +22,4 @@ plink2 --vcf fixed_allchr.dose.vcf --make-bed --chr 1-22 --no-fid --out all_chro
 
 
 # upload files
-dx upload all_chromosomes*
+# dx upload all_chromosomes*

@@ -1,5 +1,4 @@
 #### run regenie on JupyterLab
-dx download file-G7Q0JgQ08Y80q3gXKp881P4f
 bash install_regenie_from_source.sh
 
 # download files prepared for regenie

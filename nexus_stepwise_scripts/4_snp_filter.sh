@@ -3,8 +3,7 @@
 ## start from home
 dx cd
 
-# download info files
-dx download "Genotype data/Info files/" -r
+
 cd Info\ files/
 
 # unzip files
@@ -21,6 +20,12 @@ done
 
 cd step1/
 cat $(ls -t ) > ../step1_merged
+## copy file to initial dir
+cp step1_merged ../../
+## move to step 2
 cd ../step2
 cat $(ls -t ) > ../step2_merged
-cd ..
+## copy file to initial dir
+cp step2_merged ../../
+## return to initial dir
+cd ../../
