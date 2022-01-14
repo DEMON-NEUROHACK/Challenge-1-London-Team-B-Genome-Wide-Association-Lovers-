@@ -21,5 +21,5 @@ To run nextflow scripts:<br>
 
 ### Improvements to be made<br>
  * use docker with NF scripts in order to avoid having to install and maintain software locally
- * use vcftools instead of bash command to merge .vcf files (process 2 in .nf script)
+ * use vcftools instead of bash command to merge .vcf files (process 2 in .nf script) - for better code performance
  * .nf file version 1 needs to be refactored in order for process 2 to run after process 1 (asw oppossed to run in parallel, as otherwise an error can be thrown)
