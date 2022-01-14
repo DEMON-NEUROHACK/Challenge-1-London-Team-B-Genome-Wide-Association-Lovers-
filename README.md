@@ -10,7 +10,11 @@
 
 All team members helped to shape our overall aims and plan.
 
-### Project Overview
+### Project Summary
+
+For a summary of our completed code and pipeline please refer to the Summary.Rmd file. 
+
+### Formal Pipeline in Progress
 
 Our workflows are being created as NextFlow pipelines.<br>
 Benefits of using NextFlow are:<br>
