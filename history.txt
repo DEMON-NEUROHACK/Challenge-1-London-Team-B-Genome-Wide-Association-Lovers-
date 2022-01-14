@@ -1,0 +1,413 @@
+######### NextFlow Installation ##########
+
+    8  sudo apt update
+    9  java -version
+   10  sudo apt install default-jre
+   11  java -version
+   21  curl get.nextflow.io | bash
+   22  $PATH
+   23  echo $PATH
+   24  export PATH="/home/dnanexus:$PATH"
+   25  nextflow info
+   26  nano test.nf
+   27  nextflow run test.nf
+
+########## Docker Installation ##########
+ 
+   28  sudo apt-get update
+   29  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   31  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   32  sudo apt-get update
+   33  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   36  sudo docker run hello-world
+
+########## Data Download ############
+ 
+   73  dx login
+   74  dx pwd
+   75  dx ls
+   76  dx cd Genotype\ data/Test\ data/
+   77  dx ls
+   78  dx download "Genotype data/Test data/*dose.vcf.gz" -r
+   79  dx download "*dose.vcf.gz" -r
+   80  cp test.nf vcf2plink.nf
+   81  nano vcf2plink.nf 
+   82  nextflow run vcf2plink.nf 
+   83  nano vcf2plink.nf 
+   84  nextflow run vcf2plink.nf 
+   85  nano vcf2plink.nf 
+   86  nextflow run vcf2plink.nf 
+   87  nano vcf2plink.nf 
+   88  nextflow run vcf2plink.nf 
+   89  nano .nextflow.log
+   90  nano vcf2plink.nf 
+   91  nextflow run vcf2plink.nf 
+   92  nano vcf2plink.nf 
+   93  nextflow run vcf2plink.nf 
+   94  ls
+   95  nano vcf2plink.nf 
+   96  nextflow run vcf2plink.nf 
+   97  nano vcf2plink.nf 
+   98  nextflow run vcf2plink.nf 
+   99  nano vcf2plink.nf 
+  100  nextflow run vcf2plink.nf 
+  101  nano vcf2plink.nf 
+  102  nextflow run vcf2plink.nf 
+  103  nano vcf2plink.nf 
+  104  nextflow run vcf2plink.nf 
+  105  nano vcf2plink.nf 
+  106  nextflow run vcf2plink.nf 
+  107  nano vcf2plink.nf 
+  108  nextflow run vcf2plink.nf 
+  109  nano vcf2plink.nf 
+  110  nextflow run vcf2plink.nf 
+  111  nano vcf2plink.nf 
+  112  nextflow run vcf2plink.nf 
+  113  nano vcf2plink.nf 
+  114  nextflow run vcf2plink.nf 
+  115  nano vcf2plink.nf 
+  116  nextflow run vcf2plink.nf 
+  117  nano vcf2plink.nf 
+  118  nextflow run vcf2plink.nf 
+  119  nano vcf2plink.nf 
+  120  nextflow run vcf2plink.nf 
+  121  nano vcf2plink.nf 
+  122  nextflow run vcf2plink.nf 
+  123  nano vcf2plink.nf 
+  124  nextflow run vcf2plink.nf 
+  125  nano vcf2plink.nf 
+  126  nextflow run vcf2plink.nf 
+  127  nano vcf2plink.nf 
+  128  nextflow run vcf2plink.nf 
+  129  nano vcf2plink.nf 
+  130  nextflow run vcf2plink.nf 
+  131  nano vcf2plink.nf 
+  132  nextflow run vcf2plink.nf 
+  133  nano vcf2plink.nf 
+  134  nextflow run vcf2plink.nf 
+  135  nano vcf2plink.nf 
+  136  nextflow run vcf2plink.nf 
+  137  nano vcf2plink.nf 
+  138  nextflow run vcf2plink.nf 
+  139  nano vcf2plink.nf 
+  140  nextflow run vcf2plink.nf 
+  141  nano vcf2plink.nf 
+  142  nextflow run vcf2plink.nf 
+  143  nano vcf2plink.nf 
+  144  nextflow run test_vcf2plink.nf 
+  145  nano test-
+  146  nano test_vcf2plink.nf 
+  147  nextflow run test_vcf2plink.nf 
+  148  nano test_vcf2plink.nf 
+  149  nextflow run test_vcf2plink.nf 
+  150  nano test_vcf2plink.nf 
+  151  nextflow run test_vcf2plink.nf 
+  152  nano test_vcf2plink.nf 
+  153  nextflow run test_vcf2plink.nf 
+  154  nano test_vcf2plink.nf 
+  155  nextflow run test_vcf2plink.nf 
+  156  nano test_vcf2plink.nf 
+  157  nextflow run test_vcf2plink.nf 
+  158  nano test_vcf2plink.nf 
+  159  nextflow run test_vcf2plink.nf 
+  160  dx ls
+  161  ls
+  162  nano test_vcf2plink.nf 
+  163  ls
+  164  nextflow run test_vcf2plink.nf 
+  165  nano test_vcf2plink.nf 
+  166  nextflow run test_vcf2plink.nf 
+  167  nano test_vcf2plink.nf 
+  168  nextflow run test_vcf2plink.nf 
+  169  nano test_vcf2plink.nf 
+  170  nextflow run test_vcf2plink.nf 
+  171  nano test_vcf2plink.nf 
+  172  nextflow run test_vcf2plink.nf 
+  173  nano test_vcf2plink.nf 
+  174  nextflow run test_vcf2plink.nf 
+  175  nano test_vcf2plink.nf 
+  176  nextflow run test_vcf2plink.nf 
+  177  gunzip
+  178  gunzip --help
+  179  gunzip chr1.dose.vcf.gz 
+  180  ls
+  181  nano test_vcf2plink.nf 
+  182  nextflow run test_vcf2plink.nf 
+  183  gzip help
+  184  gzip --help | less
+  185  nano test_vcf2plink.nf 
+  186  nextflow run test_vcf2plink.nf 
+  187  nano test_vcf2plink.nf 
+  188  nextflow run test_vcf2plink.nf 
+  189  nano test_vcf2plink.nf 
+  190  nextflow run test_vcf2plink.nf 
+  191  nano test_vcf2plink.nf 
+  192  nextflow run test_vcf2plink.nf 
+  193  nano test_vcf2plink.nf 
+  194  nextflow run test_vcf2plink.nf 
+  195  ls
+  196  head dnanexus-executable.json 
+  197  clear
+  198  ls
+  199  dx ls
+  200  ls
+  201  nano test_vcf2plink.nf 
+  202  nextflow run test_vcf2plink.nf 
+  203  nano test_vcf2plink.nf 
+  204  nextflow run test_vcf2plink.nf 
+  205  nano test_vcf2plink.nf 
+  206  nextflow run test_vcf2plink.nf 
+  207  ls
+  208  head dx_stdout 
+  209  nano test_vcf2plink.nf 
+  210  nextflow run test_vcf2plink.nf 
+  211  nano test_vcf2plink.nf 
+  212  nextflow run test_vcf2plink.nf 
+  213  head vcf2plink.nf
+  214  less vcf2plink.nf
+  215  nano test_vcf2plink.nf 
+  216  nextflow run test_vcf2plink.nf 
+  217  ls
+  218  ls work/
+  219  ls nextflow 
+  220* ls environment 
+  221  nano test_vcf2plink.nf 
+  222  nextflow run test_vcf2plink.nf 
+  223  nano test_vcf2plink.nf 
+  224  nextflow run test_vcf2plink.nf 
+  225  nano test_vcf2plink.nf 
+  226  nextflow run test_vcf2plink.nf 
+  227  nano test_vcf2plink.nf 
+  228  nextflow run test_vcf2plink.nf 
+  229  nano test_vcf2plink.nf 
+  230  gzip --help
+  231  nano test_vcf2plink.nf 
+  232  nextflow run test_vcf2plink.nf 
+  233  nano test_vcf2plink.nf 
+  234  nextflow run test_vcf2plink.nf 
+  235  nano test_vcf2plink.nf 
+  236  nextflow run test_vcf2plink.nf 
+  237  nano test_vcf2plink.nf 
+  238  nextflow run test_vcf2plink.nf 
+  239  nano test_vcf2plink.nf 
+  240  nextflow run test_vcf2plink.nf 
+  241  ls
+  242  ls bin
+  243  nano test_vcf2plink.nf 
+  244  nextflow run test_vcf2plink.nf 
+  245  ls
+  246  ls -al
+  247  nano test_vcf2plink.nf 
+  248  nextflow run test_vcf2plink.nf 
+  249  ls
+  250  nano test_vcf2plink.nf 
+  251  nextflow run test_vcf2plink.nf 
+  252  ls
+  253  ls results/
+  254  dx ls
+  255  dx cd ..
+  256  dx ls
+  257  dx cd ..
+  258  dx download fix_vcf_formatting.R 
+  259  head fix_vcf_formatting.R 
+  260  nano fix_vcf_formatting.R 
+  261  sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+  262  sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+  263  sudo apt install r-base
+  264  R --version
+  265  nano fix_vcf_formatting.R 
+  266  ls /usr/bin/R
+  267  ls /usr/bin/Rscript 
+  268  nano fix_vcf_formatting.R 
+  269  cp fix_vcf_formatting.R results/
+  270  cd results/
+  271  ls
+  272  R fix_vcf_formatting.R 
+  273  ls
+  274  Rscript fix_vcf_formatting.R 
+  275  cmod 777 /usr/local/lib/R/site-library/
+  276  chmod 777 /usr/local/lib/R/site-library/
+  277  nano fix_vcf_formatting.R 
+  278  Rscript fix_vcf_formatting.R 
+  279  R
+  280  Rscript fix_vcf_formatting.R 
+  281  ls
+  282  cd ..
+  283  mv chr1.dose.vcf results/
+  284  cd results/
+  285  Rscript fix_vcf_formatting.R 
+  286  ls
+  287  ls -al
+  288  nano fix_vcf_formatting.R 
+  289  cd ..
+  290  ls
+  291  mv test_vcf2plink.nf vcf2plink.nf
+  292  nano vcf2plink.nf
+  293  nexflow run vcf2plink.nf
+  294  nextflow run vcf2plink.nf
+  295  ls
+  296  ls unzipped/
+  297  cp results/chr1.dose.vcf unzipped/
+  298  ls unzipped/
+  299  history | grep download
+  300  ls
+  301  rm *.dose.vcf.gz
+  302  ls
+  303  dx download "Genotype data/Test data/*dose.vcf.gz" -r
+  304  ls
+  305  rm -r unzipped/
+  306  nano vcf2plink.nf
+  307  nextflow run vcf2plink.nf
+  308  nano vcf2plink.nf
+  309  nextflow run vcf2plink.nf
+  310  ls
+  311  ls unzipped/
+  312  nano vcf2plink.nf
+  313  nextflow run vcf2plink.nf
+  314  nano vcf2plink.nf
+  315  nextflow run vcf2plink.nf
+  316  nano vcf2plink.nf
+  317  nextflow run vcf2plink.nf
+  318  cp results/fix_vcf_formatting.R unzipped/
+  319  nextflow run vcf2plink.nf -resume
+  320  ls unzipped/
+  321  nano vcf2plink.nf
+  322  nextflow run vcf2plink.nf -resume
+  323  pwd
+  324  nano vcf2plink.nf
+  325  nextflow run vcf2plink.nf -resume
+  326  nano unzipped/fix_vcf_formatting.R 
+  327  nextflow run vcf2plink.nf -resume
+  328  nano unzipped/fix_vcf_formatting.R 
+  329  nextflow run vcf2plink.nf -resume
+  330  nano unzipped/fix_vcf_formatting.R 
+  331  nextflow run vcf2plink.nf -resume
+  332  nano unzipped/fix_vcf_formatting.R 
+  333  pwd
+  334  nano unzipped/fix_vcf_formatting.R 
+  335  nextflow run vcf2plink.nf -resume
+  336  nano unzipped/fix_vcf_formatting.R 
+  337  nextflow run vcf2plink.nf -resume
+  338  nano vcf2plink.nf
+  339  nextflow run vcf2plink.nf -resume
+  340  nano unzipped/fix_vcf_formatting.R 
+  341  ls unzipped/
+  342  nextflow run vcf2plink.nf -resume
+  343  head unzipped/chr1.dose.vcf 
+  344  cd unzipped/
+  345  copy *.vcf merged.vcf
+  346  cp *.vcf merged.vcf
+  347  cat *.vcf > merged.vcf
+  348  ls
+  349  head merged.vcf 
+  350  head chr1.dose.vcf 
+  351  head chr2.dose.vcf 
+  352  nano vcf2plink.nf
+  353  cd ..
+  354  nano vcf2plink.nf
+  355  nextflow run vcf2plink.nf -resume
+  356  cat unzipped/*.vcf > unzipped/merged2.vcf
+  357  ls unzipped/
+  358  head unzipped/merged2.vcf 
+  359  nano vcf2plink.nf
+  360  nextflow run vcf2plink.nf -resume
+  361  ls work/
+  362  rm -r work
+  363  nextflow run vcf2plink.nf -resume
+  364  ls
+  365  ls unzipped/
+  366  cd unzipped/
+  367  pwd
+  368  cd ..
+  369  rm -r results/
+  370  ls
+  371  nano vcf2plink.nf
+  372  nextflow run vcf2plink.nf -resume
+  373  nano vcf2plink.nf
+  374  nextflow run vcf2plink.nf -resume
+  375  ls unzipped/
+  376  nano vcf2plink.nf
+  377  nextflow run vcf2plink.nf -resume
+  378  ls unzipped/
+  379  ls work/48/77f2bbaf9ee85f3907c54450e1ffa8/
+  380  head work/48/77f2bbaf9ee85f3907c54450e1ffa8/all_merged.vcf 
+  381  nano vcf2plink.nf
+  382  nextflow run vcf2plink.nf -resume
+  383  ls unzipped/
+  384  nano vcf2plink.nf
+  385  nextflow run vcf2plink.nf -resume
+  386  rm -r work/48/77f2bbaf9ee85f3907c54450e1ffa8/
+  387  nextflow run vcf2plink.nf -resume
+  388  rm -r work/
+  389  mv unzipped/fix_vcf_formatting.R GKP_fix_vcf_formatting.R 
+  390  rm -r unzipped/
+  391  nextflow run vcf2plink.nf -resume
+  392  nano vcf2plink.nf
+  393  nextflow run vcf2plink.nf -resume
+  394  nano vcf2plink.nf
+  395  nextflow run vcf2plink.nf -resume
+  396  sudo apt install git-all
+  397  gh login auth
+  398  git --version
+  399  git clone https://github.com/DEMON-NEUROHACK/Challenge-1-London-Team-B.git
+  400  ls
+  401  cd Challenge-1-London-Team-B/
+  402  mkdir workflow
+  403  git commit -am "created workflow directory for NextFlow pipeline"
+  404  git coonfig --global user.email "gabrilasuno@gmail.com"
+  405  git config --global user.email "gabrilasuno@gmail.com"
+  406  git config --global user.name "lasupernova"
+  407  git commit -am "created workflow directory for NextFlow pipeline"
+  408  git push origin main
+  409  git add workflow/
+  410  git commit -m "created workflow directory for NextFlow pipeline"
+  411  git push origin main
+  412  ls
+  413  nano workflow/README.md
+  414  git add workflow/
+  415  git commit -m "created workflow directory for NextFlow pipeline"
+  416  git push origin main
+  417  mkdir templates
+  418  cp ../GKP_fix_vcf_formatting.R templates/
+  419  git add templates/
+  420  git commit -m "created templates directory"
+  421  cp ../vcf2plink.nf .
+  422  ls
+  423  git add vcf2plink.nf 
+  424  git commit -m "added .nf file starting workflow"
+  425  cp vcf2plink.nf unzip.nf
+  426  nano unzip.nf 
+  427  git add unzip.nf 
+  428  git commit -m ".nf file to unzip all zipped vcf files in folder"
+  429  git push origin master
+  430  git push origin main
+  431  dx download  regenie_covariate_file_2022-1-12T10-21-45.ipynb
+  432  dx download install_regenie_from_source.sh 
+  433  dx download regenie_inputs/genotyped_snps/genotyped_snps.sh 
+  434  dx download regenie_inputs/
+  435  dx download -r regenie_inputs/
+  436  git add regenie_inputs/ 
+  437  git commit -m "'mid-way'-results for input to regenie"
+  438  git puhs origin main
+  439  git push origin main
+  440  git reset --soft HEAD^
+  441  git status
+  442  git add regenie_inputs/phenotype_regenie_FID_0.tsv regenie_inputs/phenotype_regenie.tsv regenie_inputs/regenie_covariate_file_2022-1-12T10-21-45.ipynb 
+  443  git commit -m "regenie conversions"
+  444  git push origin main
+  445  git reset --hard HEAD^
+  446  ls
+  447  mv unzip.nf workflow/
+  448  mv vcf2plink.nf workflow/
+  449  git commit -m "moved .nf files to correct location"
+  450  git add workflow/
+  451  git commit -m "moved .nf files to correct location"
+  452  git push origin main
+  453  git add install_regenie_from_source.sh regenie_covariate_file_2022-1-12T10-21-45.ipynb genotyped_snps.sh 
+  454  git commit -m "added additional code"
+  455  mv install_regenie_from_source.sh regenie_covariate_file_2022-1-12T10-21-45.ipynb genotyped_snps.sh templates/
+  456  git add .
+  457  git commit -m "moved files to correct location"
+  458  git push origin main
+  459  history > history.txt
