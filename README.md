@@ -2,7 +2,7 @@
 
 ### Team Members & Contributions
 
-* Anna Elisabeth Fürtjes (London) - Creation & testing of Regenie scripts (Stages 1 & 2); advising team members on GWAS methods
+* Anna Elisabeth Fürtjes (London) - Genetic Quality Control, Creation & testing of Regenie scripts (Stages 1 & 2); advising team members on GWAS methods
 * Mateus Harrington (Cardiff) - Becoming our go-to man on how to use the DNA Nexus platform; creation of covariate file; creating snplist files; setting up Regenie to work via DNA Nexus
 * Isy Foote (London) - Advising team members on how to integrate our work into the dementia field meaningfully; creation of phenotype file; troubleshooting errors & queries to support teammates; creation of presentation  
 * David Enoma (Nigeria) - Technical and Scientific support, brainstorming & Creating presentation; 
