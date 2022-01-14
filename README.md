@@ -1,4 +1,16 @@
-# Challenge-1-London-Team-B
+# Challenge-1-London-Team-B aka "Genome-Wide Association Lovers"
+
+### Team Members & Contributions
+
+* Anna Elisabeth Fürtjes (London) - Creation & testing of Regenie scripts; advising team members on GWAS methods
+* Mateus Harrington (Cardiff) - Becoming our go-to man on how to use the DNA Nexus platform; creation of covariate file; setting up Regenie to work via DNA Nexus
+* Isy Foote (London) - Advising team members on how to integrate our work into the dementia field meaningfully; creation of phenotype file; troubleshooting errors & queries; creation of presentation  
+* David Enoma (Nigeria) - Creating presentation; 
+* Gabriela Paulus (NYC) - Setting up our GitHub page; worked on integrating our workflow as a NextFlow pipeline
+
+All team members helped to shape our overall aims and plan.
+
+### Project Overview
 
 Our workflows are being created as NextFlow pipelines.<br>
 Benefits of using NextFlow are:<br>
